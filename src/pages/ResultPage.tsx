@@ -54,7 +54,7 @@ export default function ResultPage() {
 
   const handleShareButtonClick = () => {
 
-    const mainUrl = "https://7780-106-101-3-72.ngrok-free.app";
+    const mainUrl = "aiarys.vercel.app";
     
     navigator.clipboard.writeText(mainUrl).then(() => {
       toast(<div>url을 복사했어요</div>, {
