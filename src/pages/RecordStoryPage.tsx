@@ -43,7 +43,7 @@ export default function RecordStoryPage() {
 
             // 서버에 음성 전송 및 텍스트 변환 요청
             setIsLoading(true);
-            const response = await fetch("https://3e2e-27-113-61-172.ngrok-free.app/stt", {
+            const response = await fetch("https://port-0-aiary-server-m2jzwr6m2bfa735a.sel4.cloudtype.app/stt", {
               method: "POST",
               body: formData,
             });

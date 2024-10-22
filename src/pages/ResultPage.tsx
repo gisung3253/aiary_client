@@ -24,7 +24,7 @@ export default function ResultPage() {
 
   const sendDataToServer = async () => {
     try {
-      const response = await fetch('https://3e2e-27-113-61-172.ngrok-free.app/ai/model', {
+      const response = await fetch('https://port-0-aiary-server-m2jzwr6m2bfa735a.sel4.cloudtype.app/ai/model', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
