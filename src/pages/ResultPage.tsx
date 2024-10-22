@@ -54,7 +54,7 @@ export default function ResultPage() {
 
   const handleShareButtonClick = () => {
 
-    const mainUrl = "aiarys.vercel.app";
+    const mainUrl = "aiary1.vercel.app";
     
     navigator.clipboard.writeText(mainUrl).then(() => {
       toast(<div>url을 복사했어요</div>, {
